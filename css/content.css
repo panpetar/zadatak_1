@@ -1,0 +1,22 @@
+
+body{
+    background: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.house-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 20px 0;
+    border: 3px solid white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 2);
+}

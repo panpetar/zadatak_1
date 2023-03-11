@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registracija</title>
+    <link rel="stylesheet" href="css/registration.css">
+    <link rel="stylesheet" href="css/header_footer.css">
+</head>
+
+<body>
+    <header>
+        <a class="logo-link" href="/"><img class="logo" src="img/logo.png" alt="logo"></a>
+        <nav>
+            <a class="header-link" href="/houses.html">Kucice</a>
+            <a class="header-link" href="/snowmen.html">Sneskici</a>
+            <a class="header-link" href="registration.html">Registruj se</a>
+            <a class="header-link" href="/login.html">Uloguj se</a>
+        </nav>
+        <button class="menu-button" id="menu">
+            <img class="menu-icon" src="img/menu.svg" alt="menu"/>
+        </button>
+    </header>
+
+    <main>
+        <form class="registration-form">
+            <h4>Popuniti polja za registraciju</h4>
+
+            <label for="">Ime:<span class="star">*</span></label>
+            <input class="text-input" type="text" name="" id="" required>
+
+            <label for="">Prezime:<span class="star">*</span></label>
+            <input class="text-input" type="text" name="" id="" required>
+
+            <label for="">Email:<span class="star">*</span></label>
+            <input class="text-input" type="email" name="" id="" required>
+
+            <label for="">Sifra:<span class="star">*</span></label>
+            <input class="text-input" type="password" name="" id="">
+
+            <label for="">Ponovi sifru:<span class="star">*</span></label>
+            <input class="text-input" type="re-pasword">
+
+            <label for="">Telefon:<span class="star">*</span></label>
+            <input class="text-input" type="tel" name="" id="" placeholder="+381" required>
+
+            <label for="">Mesto:</label>
+            <input class="text-input" type="text" name="" id="">
+
+            <label for="">Postanski broj:</label>
+            <input class="text-input" type="text" name="" id="">
+
+            <label for="">Ulica i broj:</label>
+            <input class="text-input" type="text" name="" id="">
+
+            <div class="gender">
+                <span>Pol:</span>
+                <input type="radio" name="gender" id="male" value="Musko" checked>
+                <label for="musko">Musko</label>
+                <input type="radio" name="gender" id="female" value="Zensko">
+                <label for="female">Zensko</label>
+                <input type="radio" name="gender" id="other" value="Drugo">
+                <label for="other">Ostalo</label>
+            </div>
+            
+            <input type="checkbox" name="" id="newsletter">
+            <label for="newsletter">Zelim da dobijam obavestenja na email.</label>
+
+            <div class="buttons">
+                <input type="submit" value="Registracija">
+                <input type="reset" value="Ponisti">
+            </div>
+
+        </form>
+    </main>
+    <footer>
+        <p class="copyright">Designed by &copy; Ana</p>
+    </footer>
+</body>
+<script src="js/index.js"></script>
+
+</html>

@@ -29,37 +29,37 @@
         <form class="registration-form">
             <h4>Popuniti polja za registraciju</h4>
 
-            <label for="">Ime:<span class="star">*</span></label>
-            <input class="text-input" type="text" required>
+            <label for="name">Ime:<span class="star">*</span></label>
+            <input class="text-input" type="text" id="name" required>
 
-            <label for="">Prezime:<span class="star">*</span></label>
-            <input class="text-input" type="text" required>
+            <label for="last_name">Prezime:<span class="star">*</span></label>
+            <input class="text-input" type="text" id="last_name" required>
 
-            <label for="">Email:<span class="star">*</span></label>
-            <input class="text-input" type="email"  required>
+            <label for="email">Email:<span class="star">*</span></label>
+            <input class="text-input" type="email" id="email" required>
 
-            <label for="">Šifra:<span class="star">*</span></label>
-            <input class="text-input" type="password" >
+            <label for="pass">Šifra:<span class="star">*</span></label>
+            <input class="text-input" type="password" id="pass" >
 
-            <label for="">Ponovi šifru:<span class="star">*</span></label>
-            <input class="text-input" type="re-pasword">
+            <label for="re_pass">Ponovi šifru:<span class="star">*</span></label>
+            <input class="text-input" type="re-pasword" id="re_pass">
 
-            <label for="">Telefon:<span class="star">*</span></label>
-            <input class="text-input" type="tel" placeholder="+381" required>
+            <label for="phone">Telefon:<span class="star">*</span></label>
+            <input class="text-input" type="tel"  id="phone" placeholder="+381" required>
 
-            <label for="">Mesto:</label>
-            <input class="text-input" type="text">
+            <label for="place">Mesto:</label>
+            <input class="text-input" type="text" id="place">
 
-            <label for="">Poštanski broj:</label>
-            <input class="text-input" type="text">
+            <label for="post">Poštanski broj:</label>
+            <input class="text-input" type="text" id="post">
 
-            <label for="">Ulica i broj:</label>
-            <input class="text-input" type="text">
+            <label for="street">Ulica i broj:</label>
+            <input class="text-input" type="text" id="street">
 
             <div class="gender">
                 <span>Pol:</span>
                 <input type="radio" name="gender" id="male" value="Musko" checked>
-                <label for="musko">Muško</label>
+                <label for="male">Muško</label>
                 <input type="radio" name="gender" id="female" value="Zensko">
                 <label for="female">Žensko</label>
                 <input type="radio" name="gender" id="other" value="Drugo">
@@ -71,7 +71,7 @@
 
             <div class="buttons">
                 <input type="submit" value="Registracija">
-                <input type="reset" value="Ponisti">
+                <input type="reset" value="Poništi">
             </div>
 
         </form>
